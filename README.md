@@ -14,3 +14,4 @@ Não usei nenhum framework.
 
 # Vídeo demonstrativo do projeto na prática:
 
+https://youtu.be/qXzE8T2JH-Y
