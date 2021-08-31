@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --fundo-vermelho: #DC0A2D;
+    --amarelo-pokemon: #F2C200;
+}
+body{
+    background-color: var(--fundo-vermelho);
+}
+.main h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.main h1 > img{
+    width: 350px;
+}
+.pokemon-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pokemon-box{
+    background-color: rgba(0, 0, 0, .3);
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.pokemon-box img{
+    width: 50%;
+}
+.pokemon-box p{
+    font-family: 'Bangers';
+    color: #fff;
+    font-size: 50px;
+}
+.main .input{
+    text-align: center;
+    margin-top: 20px;
+}
+.main input{
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: var(--fundo-vermelho);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px){
+    .pokemon-box{
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .pokemon-box{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
